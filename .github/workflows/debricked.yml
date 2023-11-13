@@ -8,6 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: debricked/actions/resolve-non-docker@v3
       - uses: debricked/actions@v3
         env:
           DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
