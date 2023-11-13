@@ -1,0 +1,839 @@
+pytest>=3.2.0
+sphinx>=1.6.4
+sphinx-autobuild>=0.7.1
+sphinx_rtd_theme>=0.2.4
+pypandoc
+twine
+
+***
+Package                       Version
+----------------------------- ---------
+alabaster                     0.7.13
+Babel                         2.13.1
+bottle                        0.12.25
+certifi                       2022.12.7
+charset-normalizer            3.1.0
+colorama                      0.4.6
+conan                         1.41.0
+cyclonedx-bom                 3.11.0
+cyclonedx-conan               0.2.0
+cyclonedx-python-lib          3.1.5
+distro                        1.6.0
+docutils                      0.18.1
+fasteners                     0.18
+idna                          3.4
+imagesize                     1.4.1
+importlib-metadata            6.8.0
+iniconfig                     2.0.0
+jaraco.classes                3.3.0
+Jinja2                        3.1.2
+keyring                       24.3.0
+livereload                    2.6.3
+markdown-it-py                3.0.0
+MarkupSafe                    2.0.1
+mdurl                         0.1.2
+more-itertools                10.1.0
+nh3                           0.2.14
+node-semver                   0.6.1
+packageurl-python             0.9.9
+packaging                     23.1
+patch-ng                      1.17.4
+pip                           23.2.1
+pip-requirements-parser       32.0.1
+pkginfo                       1.9.6
+pluggy                        1.3.0
+pluginbase                    1.0.1
+Pygments                      2.14.0
+PyJWT                         1.7.1
+pypandoc                      1.12
+pyparsing                     3.0.9
+pytest                        7.4.3
+python-dateutil               2.8.2
+python-dotenv                 1.0.0
+PyYAML                        5.4.1
+readme-renderer               42.0
+requests                      2.28.2
+requests-toolbelt             1.0.0
+rfc3986                       2.0.0
+rich                          13.6.0
+setuptools                    68.1.2
+six                           1.16.0
+snowballstemmer               2.2.0
+sortedcontainers              2.4.0
+Sphinx                        7.2.6
+sphinx-autobuild              2021.3.14
+sphinx-rtd-theme              1.3.0
+sphinxcontrib-applehelp       1.0.7
+sphinxcontrib-devhelp         1.0.5
+sphinxcontrib-htmlhelp        2.0.4
+sphinxcontrib-jquery          4.1
+sphinxcontrib-jsmath          1.0.1
+sphinxcontrib-qthelp          1.0.6
+sphinxcontrib-serializinghtml 1.1.9
+toml                          0.10.2
+tornado                       6.3.3
+tqdm                          4.65.0
+twine                         4.0.2
+urllib3                       1.26.15
+wheel                         0.41.2
+zipp                          3.17.0
+
+***
+Name: alabaster
+Version: 0.7.13
+Summary: A configurable sidebar-enabled Sphinx theme
+Home-page: https://alabaster.readthedocs.io
+Author: Jeff Forcier
+Author-email: jeff@bitprophet.org
+License: UNKNOWN
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: Sphinx
+---
+Name: Babel
+Version: 2.13.1
+Summary: Internationalization utilities
+Home-page: https://babel.pocoo.org/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: Sphinx
+---
+Name: bottle
+Version: 0.12.25
+Summary: Fast and simple WSGI-framework for small web-applications.
+Home-page: http://bottlepy.org/
+Author: Marcel Hellkamp
+Author-email: marc@gsites.de
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: certifi
+Version: 2022.12.7
+Summary: Python package for providing Mozilla's CA Bundle.
+Home-page: https://github.com/certifi/python-certifi
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.com
+License: MPL-2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: requests
+---
+Name: charset-normalizer
+Version: 3.1.0
+Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+Home-page: https://github.com/Ousret/charset_normalizer
+Author: Ahmed TAHRI
+Author-email: ahmed.tahri@cloudnursery.dev
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: requests
+---
+Name: colorama
+Version: 0.4.6
+Summary: Cross-platform colored terminal text.
+Home-page: 
+Author: 
+Author-email: Jonathan Hartley <tartley@tartley.com>
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan, sphinx-autobuild
+---
+Name: conan
+Version: 1.41.0
+Summary: Conan C/C++ package manager
+Home-page: https://conan.io
+Author: JFrog LTD
+Author-email: luism@jfrog.com
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: bottle, colorama, distro, fasteners, Jinja2, node-semver, patch-ng, pluginbase, pygments, PyJWT, python-dateutil, PyYAML, requests, six, tqdm, urllib3
+Required-by: cyclonedx-conan
+---
+Name: cyclonedx-bom
+Version: 3.11.0
+Summary: CycloneDX Software Bill of Materials (SBOM) generation utility
+Home-page: https://github.com/CycloneDX/cyclonedx-python/#readme
+Author: Steven Springett
+Author-email: steve.springett@owasp.org
+License: Apache-2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: cyclonedx-python-lib, packageurl-python, pip-requirements-parser, setuptools, toml
+Required-by: 
+---
+Name: cyclonedx-conan
+Version: 0.2.0
+Summary: Creates CycloneDX Software Bill of Materials (SBOM) documents for C/C++ projects using Conan
+Home-page: https://github.com/CycloneDX/cyclonedx-conan
+Author: Patrick Dwyer
+Author-email: patrick.dwyer@owasp.org
+License: Apache-2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: conan, packageurl-python
+Required-by: 
+---
+Name: cyclonedx-python-lib
+Version: 3.1.5
+Summary: A library for producing CycloneDX SBOM (Software Bill of Materials) files.
+Home-page: https://github.com/CycloneDX/cyclonedx-python-lib
+Author: Paul Horton
+Author-email: phorton@sonatype.com
+License: Apache-2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: packageurl-python, setuptools, sortedcontainers, toml
+Required-by: cyclonedx-bom
+---
+Name: distro
+Version: 1.6.0
+Summary: Distro - an OS platform information API
+Home-page: https://github.com/python-distro/distro
+Author: Nir Cohen
+Author-email: nir36g@gmail.com
+License: Apache License, Version 2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: docutils
+Version: 0.18.1
+Summary: Docutils -- Python Documentation Utilities
+Home-page: http://docutils.sourceforge.net/
+Author: David Goodger
+Author-email: goodger@python.org
+License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: readme-renderer, Sphinx, sphinx-rtd-theme
+---
+Name: fasteners
+Version: 0.18
+Summary: A python package that provides useful locks
+Home-page: https://github.com/harlowja/fasteners
+Author: Joshua Harlow
+Author-email: 
+License: ASL 2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: idna
+Version: 3.4
+Summary: Internationalized Domain Names in Applications (IDNA)
+Home-page: 
+Author: 
+Author-email: Kim Davies <kim@cynosure.com.au>
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: requests
+---
+Name: imagesize
+Version: 1.4.1
+Summary: Getting image size from png/jpeg/jpeg2000/gif file
+Home-page: https://github.com/shibukawa/imagesize_py
+Author: Yoshiki Shibukawa
+Author-email: yoshiki@shibu.jp
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: Sphinx
+---
+Name: importlib-metadata
+Version: 6.8.0
+Summary: Read metadata from Python packages
+Home-page: https://github.com/python/importlib_metadata
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: zipp
+Required-by: keyring, twine
+---
+Name: iniconfig
+Version: 2.0.0
+Summary: brain-dead simple config-ini parsing
+Home-page: 
+Author: 
+Author-email: Ronny Pfannschmidt <opensource@ronnypfannschmidt.de>, Holger Krekel <holger.krekel@gmail.com>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: pytest
+---
+Name: jaraco.classes
+Version: 3.3.0
+Summary: Utility functions for Python class constructs
+Home-page: https://github.com/jaraco/jaraco.classes
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: more-itertools
+Required-by: keyring
+---
+Name: Jinja2
+Version: 3.1.2
+Summary: A very fast and expressive template engine.
+Home-page: https://palletsprojects.com/p/jinja/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: MarkupSafe
+Required-by: conan, Sphinx
+---
+Name: keyring
+Version: 24.3.0
+Summary: Store and access your passwords safely.
+Home-page: https://github.com/jaraco/keyring
+Author: Kang Zhang
+Author-email: jobo.zh@gmail.com
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: importlib-metadata, jaraco.classes
+Required-by: twine
+---
+Name: livereload
+Version: 2.6.3
+Summary: Python LiveReload is an awesome tool for web developers
+Home-page: https://github.com/lepture/python-livereload
+Author: Hsiaoming Yang
+Author-email: me@lepture.com
+License: BSD
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: six, tornado
+Required-by: sphinx-autobuild
+---
+Name: markdown-it-py
+Version: 3.0.0
+Summary: Python port of markdown-it. Markdown parsing, done right!
+Home-page: 
+Author: 
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: mdurl
+Required-by: rich
+---
+Name: MarkupSafe
+Version: 2.0.1
+Summary: Safely add untrusted strings to HTML/XML markup.
+Home-page: https://palletsprojects.com/p/markupsafe/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: Jinja2
+---
+Name: mdurl
+Version: 0.1.2
+Summary: Markdown URL utilities
+Home-page: 
+Author: 
+Author-email: Taneli Hukkinen <hukkin@users.noreply.github.com>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: markdown-it-py
+---
+Name: more-itertools
+Version: 10.1.0
+Summary: More routines for operating on iterables, beyond itertools
+Home-page: 
+Author: 
+Author-email: Erik Rose <erikrose@grinchcentral.com>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: jaraco.classes
+---
+Name: nh3
+Version: 0.2.14
+Summary: Ammonia HTML sanitizer Python binding
+Home-page: 
+Author: messense <messense@icloud.com>
+Author-email: messense <messense@icloud.com>
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: readme-renderer
+---
+Name: node-semver
+Version: 0.6.1
+Summary: port of node-semver
+Home-page: https://github.com/podhmo/python-semver
+Author: podhmo
+Author-email: ababjam61+github@gmail.com
+License: mit
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: packageurl-python
+Version: 0.9.9
+Summary: A purl aka. Package URL parser and builder
+Home-page: https://github.com/package-url/packageurl-python
+Author: the purl authors
+Author-email: 
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: cyclonedx-bom, cyclonedx-conan, cyclonedx-python-lib
+---
+Name: packaging
+Version: 23.1
+Summary: Core utilities for Python packages
+Home-page: 
+Author: 
+Author-email: Donald Stufft <donald@stufft.io>
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: pip-requirements-parser, pytest, Sphinx
+---
+Name: patch-ng
+Version: 1.17.4
+Summary: Library to parse and apply unified diffs.
+Home-page: https://github.com/conan-io/python-patch
+Author: Conan.io
+Author-email: info@conan.io
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: pip
+Version: 23.2.1
+Summary: The PyPA recommended tool for installing Python packages.
+Home-page: https://pip.pypa.io/
+Author: The pip developers
+Author-email: distutils-sig@python.org
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: 
+---
+Name: pip-requirements-parser
+Version: 32.0.1
+Summary: pip requirements parser - a mostly correct pip requirements parsing library because it uses pip's own code.
+Home-page: https://github.com/nexB/pip-requirements-parser
+Author: The pip authors, nexB. Inc. and others
+Author-email: info@aboutcode.org
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: packaging, pyparsing
+Required-by: cyclonedx-bom
+---
+Name: pkginfo
+Version: 1.9.6
+Summary: Query metadata from sdists / bdists / installed packages.
+Home-page: https://code.launchpad.net/~tseaver/pkginfo/trunk
+Author: Tres Seaver, Agendaless Consulting
+Author-email: tseaver@agendaless.com
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: twine
+---
+Name: pluggy
+Version: 1.3.0
+Summary: plugin and hook calling mechanisms for python
+Home-page: https://github.com/pytest-dev/pluggy
+Author: Holger Krekel
+Author-email: holger@merlinux.eu
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: pytest
+---
+Name: pluginbase
+Version: 1.0.1
+Summary: PluginBase is a module for Python that enables the development of flexible plugin systems in Python.
+Home-page: http://github.com/mitsuhiko/pluginbase
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: Pygments
+Version: 2.14.0
+Summary: Pygments is a syntax highlighting package written in Python.
+Home-page: https://pygments.org/
+Author: Georg Brandl
+Author-email: georg@python.org
+License: BSD-2-Clause
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan, readme-renderer, rich, Sphinx
+---
+Name: PyJWT
+Version: 1.7.1
+Summary: JSON Web Token implementation in Python
+Home-page: http://github.com/jpadilla/pyjwt
+Author: Jose Padilla
+Author-email: hello@jpadilla.com
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: pypandoc
+Version: 1.12
+Summary: Thin wrapper for pandoc.
+Home-page: https://github.com/JessicaTegner/pypandoc
+Author: b'Juho Veps\xc3\xa4l\xc3\xa4inen'
+Author-email: bebraw@gmail.com
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: 
+---
+Name: pyparsing
+Version: 3.0.9
+Summary: pyparsing module - Classes and methods to define and execute parsing grammars
+Home-page: 
+Author: 
+Author-email: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: pip-requirements-parser
+---
+Name: pytest
+Version: 7.4.3
+Summary: pytest: simple powerful testing with Python
+Home-page: https://docs.pytest.org/en/latest/
+Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
+Author-email: 
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: iniconfig, packaging, pluggy
+Required-by: 
+---
+Name: python-dateutil
+Version: 2.8.2
+Summary: Extensions to the standard Python datetime module
+Home-page: https://github.com/dateutil/dateutil
+Author: Gustavo Niemeyer
+Author-email: gustavo@niemeyer.net
+License: Dual License
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: six
+Required-by: conan
+---
+Name: python-dotenv
+Version: 1.0.0
+Summary: Read key-value pairs from a .env file and set them as environment variables
+Home-page: https://github.com/theskumar/python-dotenv
+Author: Saurabh Kumar
+Author-email: me+github@saurabh-kumar.com
+License: BSD-3-Clause
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: 
+---
+Name: PyYAML
+Version: 5.4.1
+Summary: YAML parser and emitter for Python
+Home-page: https://pyyaml.org/
+Author: Kirill Simonov
+Author-email: xi@resolvent.net
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: readme-renderer
+Version: 42.0
+Summary: readme_renderer is a library for rendering readme descriptions for Warehouse
+Home-page: 
+Author: 
+Author-email: The Python Packaging Authority <admin@mail.pypi.org>
+License: Apache License, Version 2.0
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: docutils, nh3, Pygments
+Required-by: twine
+---
+Name: requests
+Version: 2.28.2
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: certifi, charset-normalizer, idna, urllib3
+Required-by: conan, requests-toolbelt, Sphinx, twine
+---
+Name: requests-toolbelt
+Version: 1.0.0
+Summary: A utility belt for advanced users of python-requests
+Home-page: https://toolbelt.readthedocs.io/
+Author: Ian Cordasco, Cory Benfield
+Author-email: graffatcolmingov@gmail.com
+License: Apache 2.0
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: requests
+Required-by: twine
+---
+Name: rfc3986
+Version: 2.0.0
+Summary: Validating URI References per RFC 3986
+Home-page: http://rfc3986.readthedocs.io
+Author: Ian Stapleton Cordasco
+Author-email: graffatcolmingov@gmail.com
+License: Apache 2.0
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: twine
+---
+Name: rich
+Version: 13.6.0
+Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+Home-page: https://github.com/Textualize/rich
+Author: Will McGugan
+Author-email: willmcgugan@gmail.com
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: markdown-it-py, pygments
+Required-by: twine
+---
+Name: setuptools
+Version: 68.1.2
+Summary: Easily download, build, install, upgrade, and uninstall Python packages
+Home-page: https://github.com/pypa/setuptools
+Author: Python Packaging Authority
+Author-email: distutils-sig@python.org
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: cyclonedx-bom, cyclonedx-python-lib
+---
+Name: six
+Version: 1.16.0
+Summary: Python 2 and 3 compatibility utilities
+Home-page: https://github.com/benjaminp/six
+Author: Benjamin Peterson
+Author-email: benjamin@python.org
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan, livereload, python-dateutil
+---
+Name: snowballstemmer
+Version: 2.2.0
+Summary: This package provides 29 stemmers for 28 languages generated from Snowball algorithms.
+Home-page: https://github.com/snowballstem/snowball
+Author: Snowball Developers
+Author-email: snowball-discuss@lists.tartarus.org
+License: BSD-3-Clause
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: Sphinx
+---
+Name: sortedcontainers
+Version: 2.4.0
+Summary: Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
+Home-page: http://www.grantjenks.com/docs/sortedcontainers/
+Author: Grant Jenks
+Author-email: contact@grantjenks.com
+License: Apache 2.0
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: cyclonedx-python-lib
+---
+Name: Sphinx
+Version: 7.2.6
+Summary: Python documentation generator
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: alabaster, babel, docutils, imagesize, Jinja2, packaging, Pygments, requests, snowballstemmer, sphinxcontrib-applehelp, sphinxcontrib-devhelp, sphinxcontrib-htmlhelp, sphinxcontrib-jsmath, sphinxcontrib-qthelp, sphinxcontrib-serializinghtml
+Required-by: sphinx-autobuild, sphinx-rtd-theme, sphinxcontrib-applehelp, sphinxcontrib-devhelp, sphinxcontrib-htmlhelp, sphinxcontrib-jquery, sphinxcontrib-qthelp, sphinxcontrib-serializinghtml
+---
+Name: sphinx-autobuild
+Version: 2021.3.14
+Summary: Rebuild Sphinx documentation on changes, with live-reload in the browser.
+Home-page: https://github.com/executablebooks/sphinx-autobuild
+Author: Jonathan Stoppani
+Author-email: jonathan@stoppani.name
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: colorama, livereload, sphinx
+Required-by: 
+---
+Name: sphinx-rtd-theme
+Version: 1.3.0
+Summary: Read the Docs theme for Sphinx
+Home-page: https://github.com/readthedocs/sphinx_rtd_theme
+Author: Dave Snider, Read the Docs, Inc. & contributors
+Author-email: dev@readthedocs.org
+License: MIT
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: docutils, sphinx, sphinxcontrib-jquery
+Required-by: 
+---
+Name: sphinxcontrib-applehelp
+Version: 1.0.7
+Summary: sphinxcontrib-applehelp is a Sphinx extension which outputs Apple help books
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: Sphinx
+---
+Name: sphinxcontrib-devhelp
+Version: 1.0.5
+Summary: sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp documents
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: Sphinx
+---
+Name: sphinxcontrib-htmlhelp
+Version: 2.0.4
+Summary: sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: Sphinx
+---
+Name: sphinxcontrib-jquery
+Version: 4.1
+Summary: Extension to include jQuery on newer Sphinx releases
+Home-page: 
+Author: Adam Turner
+Author-email: 
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: sphinx-rtd-theme
+---
+Name: sphinxcontrib-jsmath
+Version: 1.0.1
+Summary: A sphinx extension which renders display math in HTML via JavaScript
+Home-page: http://sphinx-doc.org/
+Author: Georg Brandl
+Author-email: georg@python.org
+License: BSD
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: Sphinx
+---
+Name: sphinxcontrib-qthelp
+Version: 1.0.6
+Summary: sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp documents
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: Sphinx
+---
+Name: sphinxcontrib-serializinghtml
+Version: 1.1.9
+Summary: sphinxcontrib-serializinghtml is a sphinx extension which outputs "serialized" HTML files (json and pickle)
+Home-page: 
+Author: 
+Author-email: Georg Brandl <georg@python.org>
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: Sphinx
+Required-by: Sphinx
+---
+Name: toml
+Version: 0.10.2
+Summary: Python Library for Tom's Obvious, Minimal Language
+Home-page: https://github.com/uiri/toml
+Author: William Pearson
+Author-email: uiri@xqz.ca
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: cyclonedx-bom, cyclonedx-python-lib
+---
+Name: tornado
+Version: 6.3.3
+Summary: Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
+Home-page: http://www.tornadoweb.org/
+Author: Facebook
+Author-email: python-tornado@googlegroups.com
+License: Apache-2.0
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: livereload
+---
+Name: tqdm
+Version: 4.65.0
+Summary: Fast, Extensible Progress Meter
+Home-page: https://tqdm.github.io
+Author: 
+Author-email: 
+License: MPLv2.0, MIT Licences
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan
+---
+Name: twine
+Version: 4.0.2
+Summary: Collection of utilities for publishing packages on PyPI
+Home-page: https://twine.readthedocs.io/
+Author: Donald Stufft and individual contributors
+Author-email: donald@stufft.io
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: importlib-metadata, keyring, pkginfo, readme-renderer, requests, requests-toolbelt, rfc3986, rich, urllib3
+Required-by: 
+---
+Name: urllib3
+Version: 1.26.15
+Summary: HTTP library with thread-safe connection pooling, file post, and more.
+Home-page: https://urllib3.readthedocs.io/
+Author: Andrey Petrov
+Author-email: andrey.petrov@shazow.net
+License: MIT
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: conan, requests, twine
+---
+Name: wheel
+Version: 0.41.2
+Summary: A built-package format for Python
+Home-page: 
+Author: 
+Author-email: Daniel Holth <dholth@fastmail.fm>
+License: 
+Location: /opt/homebrew/lib/python3.11/site-packages
+Requires: 
+Required-by: 
+---
+Name: zipp
+Version: 3.17.0
+Summary: Backport of pathlib-compatible object wrapper for zip files
+Home-page: https://github.com/jaraco/zipp
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: 
+Location: /Users/carl/Downloads/testFailingPip/dev_requirements.txt.venv/lib/python3.11/site-packages
+Requires: 
+Required-by: importlib-metadata
